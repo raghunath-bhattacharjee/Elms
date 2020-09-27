@@ -63,7 +63,7 @@
                            <div>
                                <input type="submit" value="Sign In" name="submit" class="btn btn-outline-primary">
 
-                               <a style="float:right" href="./forgotpassword"> Forgot password </a>
+                               <a style="float:right" href="./forgotpassword.php"> Forgot password </a>
                            </div>
                         </form>
                     </div>

@@ -6,6 +6,7 @@ class Database
     function __construct()
     {
         //This line estrablished the database connection
+        // live db password #1GoergeClg | u687989494_elms
         $this->connection = mysqli_connect("localhost", "root", "root", "Elms");
 
         if (!$this->connection) {
