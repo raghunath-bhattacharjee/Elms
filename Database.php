@@ -7,7 +7,7 @@ class Database
     {
         //This line estrablished the database connection
         // live db password #1GoergeClg | u687989494_elms
-        $this->connection = mysqli_connect("localhost", "root", "root", "Elms");
+        $this->connection = mysqli_connect("localhost", "u687989494_elms", "#1GoergeClg", "u687989494_elms");
 
         if (!$this->connection) {
             die("Connection failed: " . mysqli_connect_error());
