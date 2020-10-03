@@ -6,6 +6,14 @@
     $adminObj = new Admin();
     $admin = $adminObj->getAdmin();
 
+    // $db = new Database();
+    // $con = $db->connection();
+    
+    // $Query = "SELECT * FROM admin";
+    // $result = $con->query($Query);
+    // $admin =  mysqli_fetch_assoc($result);
+
+
     if ($_POST['submit']) {
         $name = $_POST['name'];
         $username = $_POST['username'];
@@ -46,7 +54,7 @@
       <?php include('./theme/navbar.php'); ?>
 
       <!-- End Navbar -->
-      <div class="content">
+        <div class="content">
             <div class="row">
                 <div class="col-md-10">
                     <div class="card" style="padding:20px">
@@ -107,8 +115,10 @@
             </div>
         </div>
       
+      
+      
+      
       <?php include('./theme/footer.php'); ?>
-
     </div>
   </div>
 </body>
